@@ -212,6 +212,7 @@ section {
 @media (max-width: 1000px) {
   section {
     width: 93%;
+    margin: 3em auto;
   }
 }
 
