@@ -2,6 +2,7 @@ var elixir = require('laravel-elixir');
 
 config.sourcemaps = false;
 config.assetsPath = 'resources';
+config.css.autoprefix.options.browsers = ['last 20 versions'];
 
 elixir(function(mix) {
 	mix.sass('app.scss');
