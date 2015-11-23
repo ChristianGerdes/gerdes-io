@@ -352,6 +352,12 @@ h1.headline {
   font-weight: 600;
 }
 
+@media (max-width: 410px) {
+  h1.headline {
+    width: 80%;
+  }
+}
+
 * {
   box-sizing: border-box;
 }
