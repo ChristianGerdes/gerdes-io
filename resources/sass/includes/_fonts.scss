@@ -1,0 +1,26 @@
+* {
+	text-rendering: geometricPrecision;
+    font-smoothing: subpixel-antialiased;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+@font-face {
+	font-family: 'proxima-nova-alt';
+	src: url('../fonts/proxima-nova-alt-semibold.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/proxima-nova-alt-semibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../fonts/proxima-nova-alt-semibold.woff') format('woff'), /* Pretty Modern Browsers */
+	url('../fonts/proxima-nova-alt-semibold.ttf')  format('truetype'), /* Safari, Android, iOS */
+	url('../fonts/proxima-nova-alt-semibold.svg#svgFontName') format('svg'); /* Legacy iOS */
+	font-style: normal;
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: 'proxima-nova-alt';
+	src: url('../fonts/proxima-nova-regular.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/proxima-nova-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../fonts/proxima-nova-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+	url('../fonts/proxima-nova-regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+	font-style: normal;
+	font-weight: 400;
+}
