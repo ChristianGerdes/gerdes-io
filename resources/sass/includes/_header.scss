@@ -34,5 +34,9 @@ header {
 		font-size: 1.6em;
 		width: 80%;
 		margin: auto;
+
+		@media (max-width: 410px) {
+			width: 90%;
+		}
 	}
 }

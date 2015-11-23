@@ -336,6 +336,12 @@ header p {
   margin: auto;
 }
 
+@media (max-width: 410px) {
+  header p {
+    width: 90%;
+  }
+}
+
 h1.headline {
   width: 70%;
   display: block;
