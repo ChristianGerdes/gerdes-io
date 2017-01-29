@@ -1,5 +1,5 @@
 $(".typed").typed({
-	strings: ['laravel', 'php', 'backend', 'frontend', 'html'],
+	strings: ['laravel', 'php', 'api', 'backend', 'frontend', 'din'],
 	typeSpeed: 100,
 	backSpeed: 120,
 	startDelay: 2500,

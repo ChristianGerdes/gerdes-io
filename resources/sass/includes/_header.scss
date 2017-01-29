@@ -5,39 +5,40 @@ header {
 	height: 100vh;
 	min-height: 600px;
 	text-align: center;
+	display: flex;
+    align-items: center;
+    justify-content: center;
 
-	h1 {
-		font-size: 4em;
-		padding: 4.5em 0 0 0;
-		text-transform: uppercase;
-		font-weight: bold;
-		color: white;
-		text-shadow: 1px 1px #636766;
-		font-family: Arial,Helvetica,'Liberation Sans',FreeSans,sans-serif;
-	
-		@media (max-width: 700px) {
-			padding-top: 3.5em;
-		}
+    #content {
+		h1 {
+			font-size: 4em;
+			text-transform: uppercase;
+			font-weight: bold;
+			color: white;
+			text-shadow: 1px 1px #636766;
+			font-family: Arial,Helvetica,'Liberation Sans',FreeSans,sans-serif;
 
-		span#title {
-			@media (max-width: 700px) {
-				display: inline-block;
-				height: 64px;
-				width: 342px;
-				position: relative;
+			span#title {
+				@media (max-width: 700px) {
+					display: inline-block;
+					height: 64px;
+					width: 342px;
+					position: relative;
+				}
 			}
 		}
-	}
 
-	p {
-		color: white;
-		font-weight: bold;
-		font-size: 1.6em;
-		width: 80%;
-		margin: auto;
+		p {
+			color: white;
+			font-weight: bold;
+			font-size: 1.6em;
+			width: 80%;
+			margin: auto;
+			min-width: 360px;
 
-		@media (max-width: 410px) {
-			width: 90%;
+			@media (max-width: 410px) {
+				width: 90%;
+			}
 		}
 	}
 }
